@@ -15,12 +15,12 @@ C:/Users/Vaqif/Desktop/SideProjects/MyArmory/MyArmory
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61009
+57404
 Successfully changed project path to: C:/Users/Vaqif/Desktop/SideProjects/MyArmory/MyArmory
 C:/Users/Vaqif/Desktop/SideProjects/MyArmory/MyArmory
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.86 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.74 ms.
+Refreshing native plugins compatible for Editor in 44.63 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Vaqif/Desktop/SideProjects/MyArmory/MyArmory/Assets
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002210 seconds.
+Registered in 0.002112 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.71 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 37.98 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.508 seconds
+- Completed reload, in  0.523 seconds
 Domain Reload Profiling:
-	ReloadAssembly (508ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (397ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
+			RebuildScriptCaches (27ms)
 			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
+				RefreshPlugins (38ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadAttributes (70ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,11 +75,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005011 seconds.
+Registered in 0.005030 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 37.38 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -101,30 +101,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  1.026 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1022ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (847ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (844ms)
 			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (358ms)
+			SetupLoadedEditorAssemblies (343ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				RefreshPlugins (38ms)
 				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -132,14 +132,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.7 MB.
 System memory in use after: 93.8 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2674.
-Total: 2.767100 ms (FindLiveObjects: 0.152800 ms CreateObjectMapping: 0.075800 ms MarkObjects: 2.482500 ms  DeleteObjects: 0.055300 ms)
+Total: 2.776000 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.478000 ms  DeleteObjects: 0.055600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -153,9 +153,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/App/Models/Swords/BlueIceSword.blend
-  artifactKey: Guid(c89189a15ee7c1b47a677048e2b6de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/BlueIceSword.blend using Guid(c89189a15ee7c1b47a677048e2b6de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198898523223bb14323f06529526b356') in 0.115039 seconds 
-  Import took 0.117928 seconds .
+  path: Assets/App/Models/Swords/ZeonSwords.jpg
+  artifactKey: Guid(9894377a10c82954581ebf3b7034471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Models/Swords/ZeonSwords.jpg using Guid(9894377a10c82954581ebf3b7034471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edecc4db883e1f3f6d9abfd9fa56cb37') in 0.066741 seconds 
+  Import took 0.069580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/App/Models/Swords/ShatteredSword.jpg
+  artifactKey: Guid(0a17dde7895f8724fa8a6683cdbc2814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Models/Swords/ShatteredSword.jpg using Guid(0a17dde7895f8724fa8a6683cdbc2814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5656854c0888978515b6945db98f3f84') in 0.022765 seconds 
+  Import took 0.025595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/App/Models/Swords/PlasmaSword.jpg
+  artifactKey: Guid(6a65551d5242bff43ae41741d20b9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Models/Swords/PlasmaSword.jpg using Guid(6a65551d5242bff43ae41741d20b9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18175c2a4aca8b8feff3364bf3ed3123') in 0.025322 seconds 
+  Import took 0.028004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5146.014140 seconds.
+  path: Assets/App/Models/Swords/PlasmaSword.blend
+  artifactKey: Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Models/Swords/PlasmaSword.blend using Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec4ee4c664175ac2ca121dd71e4f4b8') in 0.159285 seconds 
+  Import took 0.163214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.364953 seconds.
+  path: Assets/App/Models/Swords/PlasmaSword.blend
+  artifactKey: Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Models/Swords/PlasmaSword.blend using Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edb87222eb17f7a801b07f789116aef') in 0.100734 seconds 
+  Import took 0.104078 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
