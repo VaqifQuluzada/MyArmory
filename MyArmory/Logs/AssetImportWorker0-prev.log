@@ -15,12 +15,12 @@ C:/Users/DynamicBox/Desktop/Github Projects/MyArmory/MyArmory
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52149
+63316
 Successfully changed project path to: C:/Users/DynamicBox/Desktop/Github Projects/MyArmory/MyArmory
 C:/Users/DynamicBox/Desktop/Github Projects/MyArmory/MyArmory
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.34 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.93 ms.
+Refreshing native plugins compatible for Editor in 56.48 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.50 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/DynamicBox/Desktop/Github Projects/MyArmory/MyArmory/Assets
@@ -35,52 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002566 seconds.
+Registered in 0.002738 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.71 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 49.79 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.727 seconds
+- Completed reload, in  0.713 seconds
 Domain Reload Profiling:
-	ReloadAssembly (728ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (560ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (210ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (201ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005482 seconds.
+Registered in 0.005036 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.77 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 51.33 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -101,45 +101,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
+- Completed reload, in  1.396 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1540ms)
-		BeginReloadAssembly (185ms)
+	ReloadAssembly (1397ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1281ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
+			SetupTypeCache (350ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (553ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (458ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.8 MB.
 System memory in use after: 93.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 3.667900 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.085000 ms MarkObjects: 3.316900 ms  DeleteObjects: 0.101400 ms)
+Total: 4.636700 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.230500 ms MarkObjects: 4.002400 ms  DeleteObjects: 0.121600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -153,91 +153,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/App/Models/Swords/BlueIceSword.jpg
-  artifactKey: Guid(fd4b97bd93cc22a4d93925b7725bf84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/BlueIceSword.jpg using Guid(fd4b97bd93cc22a4d93925b7725bf84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5285b25d8f4b5c05a844e07c3419e7d') in 0.076411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
   path: Assets/App/Models/Swords/PlasmaSword.blend
   artifactKey: Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/PlasmaSword.blend using Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2378e493a741fdcc1e688a164c33c70') in 0.216811 seconds 
+Start importing Assets/App/Models/Swords/PlasmaSword.blend using Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b5203523e1324f9996e0c28434bb61') in 0.179746 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/App/Models/Swords/cbbdf93da353e20591141c69580a63ba.jpg
-  artifactKey: Guid(3910b75a0381d224a88b21a42145f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/cbbdf93da353e20591141c69580a63ba.jpg using Guid(3910b75a0381d224a88b21a42145f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3e56f72897591cb29db880e46ec0a3') in 0.028782 seconds 
+  Time since last request: 0.000298 seconds.
+  path: Assets/App/Prefabs/BrokenDummyPrefab.prefab
+  artifactKey: Guid(57e93d7916bd90749bb3cfc96a5ff407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/BrokenDummyPrefab.prefab using Guid(57e93d7916bd90749bb3cfc96a5ff407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0d943d07271f66c948d82e16c27f0') in 0.034410 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/App/Models/Swords/ZeonSwords.jpg
-  artifactKey: Guid(9894377a10c82954581ebf3b7034471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/ZeonSwords.jpg using Guid(9894377a10c82954581ebf3b7034471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feddb6410b059de39b39112929c9985') in 0.025671 seconds 
+  Time since last request: 0.000238 seconds.
+  path: Assets/App/Prefabs/DummyPrefab.prefab
+  artifactKey: Guid(0948c51b4c7bf734b80234d882ad4c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/DummyPrefab.prefab using Guid(0948c51b4c7bf734b80234d882ad4c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0b40f409b06edfeb34b722f78a862e') in 0.018558 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/App/Models/Swords/BlueIceSword.blend
-  artifactKey: Guid(c89189a15ee7c1b47a677048e2b6de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/BlueIceSword.blend using Guid(c89189a15ee7c1b47a677048e2b6de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e7ad59b9a7749bf6f7589988ffc904') in 0.025302 seconds 
+  Time since last request: 18.222213 seconds.
+  path: Assets/App/Models/Swords/PlasmaSword.blend
+  artifactKey: Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Models/Swords/PlasmaSword.blend using Guid(367331dd84879774996bc2d0afb85166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bb77a504a3677fe54987f8cbf0788b') in 0.028693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/App/Models/Swords/ShatteredSword.jpg
-  artifactKey: Guid(0a17dde7895f8724fa8a6683cdbc2814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/ShatteredSword.jpg using Guid(0a17dde7895f8724fa8a6683cdbc2814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff675a6ab7f1b5cfdc5948cf569b9f8') in 0.019009 seconds 
+  Time since last request: 4.139447 seconds.
+  path: Assets/App/Materials&Textures/PlasmaSwordHandleAndOtherParts.mat
+  artifactKey: Guid(c0f9089973bece14bb3b78ed8c385760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials&Textures/PlasmaSwordHandleAndOtherParts.mat using Guid(c0f9089973bece14bb3b78ed8c385760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2021f049ffcf05d159061429e676cc4e') in 0.016756 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/App/Models/Swords/PlasmaSword.jpg
-  artifactKey: Guid(6a65551d5242bff43ae41741d20b9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Models/Swords/PlasmaSword.jpg using Guid(6a65551d5242bff43ae41741d20b9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd8fee45f100edb0b833f696bba1115') in 0.023645 seconds 
+  Time since last request: 0.000404 seconds.
+  path: Assets/App/Materials&Textures/SwordBladeMat.mat
+  artifactKey: Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials&Textures/SwordBladeMat.mat using Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94e9cd0f1b72876a713d3fe0b616852') in 0.026639 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 234.687665 seconds.
-  path: Assets/App/Materials&Textures
-  artifactKey: Guid(015d958410d66fb4eafcfbfb63138e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures using Guid(015d958410d66fb4eafcfbfb63138e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2ba8faa83218fb256f4d99572015f0') in 0.017089 seconds 
+  Time since last request: 34.596988 seconds.
+  path: Assets/App/Models/Stands
+  artifactKey: Guid(e0ae34d8ece4084409acd089945064ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Models/Stands using Guid(e0ae34d8ece4084409acd089945064ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38f24c5cdf2db240c1a2916a14c3bd5') in 0.010920 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063387 seconds.
-  path: Assets/App/Materials&Textures/BlueIceBladeMat.mat
-  artifactKey: Guid(9065128b2bbcc984cae85f9ea633aa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures/BlueIceBladeMat.mat using Guid(9065128b2bbcc984cae85f9ea633aa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85371436160be9125388223287afcdee') in 0.028608 seconds 
+  Time since last request: 18.118223 seconds.
+  path: Assets/App/Materials&Textures/PlasmaSwordBladeMat.mat
+  artifactKey: Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials&Textures/PlasmaSwordBladeMat.mat using Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef13a32fcf67278350a4b999360d7837') in 0.020167 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/App/Materials&Textures/PinkSwordBladeMat.mat
-  artifactKey: Guid(e06afd150409c3f43b6e2f2e19534d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures/PinkSwordBladeMat.mat using Guid(e06afd150409c3f43b6e2f2e19534d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0147d082343bcb89e12bb08d7f1a4e') in 0.025256 seconds 
+  Time since last request: 84.604384 seconds.
+  path: Assets/App/Materials&Textures/PlasmaSwordBladeMat.mat
+  artifactKey: Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials&Textures/PlasmaSwordBladeMat.mat using Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d93f5482f74e2a41c64c15a876c8a6') in 0.037388 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/App/Materials&Textures/BlueSaberSwordHandleMat.mat
-  artifactKey: Guid(c2ad01f61cd670e4187467b056ef2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures/BlueSaberSwordHandleMat.mat using Guid(c2ad01f61cd670e4187467b056ef2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fc735cfffb186d83716d08e6d7858b') in 0.027543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/App/Materials&Textures/ColorPalette.png
-  artifactKey: Guid(f66619ffa914ab54d8f5fd0ef954678d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures/ColorPalette.png using Guid(f66619ffa914ab54d8f5fd0ef954678d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4ab904377b7c50d03a9694c89cfa1d') in 0.023905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/App/Materials&Textures/BlueIceHandleMat.mat
-  artifactKey: Guid(1335059b8d9f7ae4e9ac25a8dbc8603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures/BlueIceHandleMat.mat using Guid(1335059b8d9f7ae4e9ac25a8dbc8603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df33c7049ef2e850616271be57bc545b') in 0.023884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/App/Materials&Textures/BlueSaberSwordBlade.mat
-  artifactKey: Guid(606419e900a1f994bb0f93aa1a366a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures/BlueSaberSwordBlade.mat using Guid(606419e900a1f994bb0f93aa1a366a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4245228caeb1af54aa8ad433c4de0f61') in 0.027252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/App/Materials&Textures/PinkSwordHandleMat.mat
-  artifactKey: Guid(074fd8cc91e09c3499d1483b1b3c70a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials&Textures/PinkSwordHandleMat.mat using Guid(074fd8cc91e09c3499d1483b1b3c70a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c73d2047036d4f6506a9d140708668c') in 0.024855 seconds 
+  Time since last request: 230.923063 seconds.
+  path: Assets/App/Materials&Textures/PlasmaSwordBladeMat.mat
+  artifactKey: Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials&Textures/PlasmaSwordBladeMat.mat using Guid(919c15d07918a4d4bb251d3393ade97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c394a667b8743cae2ab80b0c8837eef1') in 0.016026 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
