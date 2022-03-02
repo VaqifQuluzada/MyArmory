@@ -3,7 +3,17 @@ guid: 367331dd84879774996bc2d0afb85166
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasmaSwordHandleAndOtherParts
+    second: {fileID: 2100000, guid: c0f9089973bece14bb3b78ed8c385760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SwordBladeMat
+    second: {fileID: 2100000, guid: 919c15d07918a4d4bb251d3393ade97e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
