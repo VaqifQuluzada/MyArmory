@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: f7d74407a7b706245965b7f14bcf3a18
+guid: 15e24fc35ab51434e9e97d7764f35e0f
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PoisonShieldGreenEmissionPart
+    second: {fileID: 2100000, guid: 8ae164b0dd14f3143aff45369baf8381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PoisonShieldRemainPartMat
+    second: {fileID: 2100000, guid: 7b7ac359b05610e48b7198013ac92277, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: be1b1321033200b4fab1dcf89f28d81a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SwordStandMaterial
+    second: {fileID: 2100000, guid: 0df2909a9d489034081c5e360ef65b1a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
