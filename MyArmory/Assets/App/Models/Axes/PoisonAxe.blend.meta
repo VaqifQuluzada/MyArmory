@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: fc303170326c87941b88c3ba55d5d9db
+guid: 26a25beff89fb8e41b12d2d9567aa262
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
   externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ModernBowMat
-    second: {fileID: 2100000, guid: 76ef5c92b6b175f44b6dfdc6b07ff4d1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
